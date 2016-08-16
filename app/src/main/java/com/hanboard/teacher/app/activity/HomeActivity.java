@@ -24,6 +24,7 @@ public class HomeActivity extends BaseActivity implements UpdateCallback, Adapte
     @BindView(R.id.activity_home_leftMenu)
     ListView mListMenu;
     //检测登录跟新的接口
+
     private IVersionModel iVersionModel;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
